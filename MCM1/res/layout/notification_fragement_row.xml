@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative_two"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/events_list_bg"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/child_one"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/calender_bg" />
+
+            <TextView
+                android:id="@+id/fg_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:text="Jan"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fg_list_row_month" />
+
+            <TextView
+                android:id="@+id/fg_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="SAT"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fg_list_row_day" />
+
+            <TextView
+                android:id="@+id/fg_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:text="22"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fg_list_row_date" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/child_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@+id/child_three"
+            android:layout_toRightOf="@+id/child_one" >
+
+            <TextView
+                android:id="@+id/fg_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="TextView"
+                android:textColor="@color/fg_event_list_row"
+                android:textSize="@dimen/fg_list_row_time"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/fg_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/fg_time"
+                android:layout_alignBottom="@+id/fg_time"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/fg_time"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fg_list_row_month"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fg_long_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:singleLine="false"
+                android:text="TextView"
+                android:maxEms="15"
+                android:paddingTop="5dp"
+                android:layout_below="@+id/fg_title"
+                android:textColor="@color/fg_event_list_row"
+                android:textSize="@dimen/fg_list_row_time"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/child_three"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:minWidth="45dp" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

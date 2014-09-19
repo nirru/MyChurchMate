@@ -1,0 +1,122 @@
+package com.mcm.database;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
+
+import com.mcm.SplashActivity;
+
+public class MCMDatabase {
+
+	Context context;
+
+	SQLiteDatabase database;
+
+	public MCMDatabase(Context context) {
+		this.context = context;
+	}
+
+	public void memberTable(SQLiteDatabase database) {
+		SplashActivity.databaseHelper.createTable(database,
+				" CREATE TABLE IF NOT EXISTS " + AppConstant.MEMBER_TABLE_NAME
+						+ " (" + AppConstant.MCM_MEMBER_MEMEBER_ID
+						+ " Integer, " + AppConstant.MCM_MEMBER_CLIENT_ID
+						+ " Integer," + AppConstant.MCM_MEMBER_FIRST_NAME
+						+ " Text," + AppConstant.MCM_MEMBER_LAST_NAME
+						+ " Text," + AppConstant.MCM_MEMBER_EMAIL_ID + " Text,"
+						+ AppConstant.MCM_MEMBER_PASSWORD + " Text" + " );");
+	}
+
+	public void clientTable(SQLiteDatabase database) {
+		String ClientTableQuery = "CREATE TABLE IF NOT EXISTS "
+				+ AppConstant.CLIENT_TABLE_NAME + "("
+				+ AppConstant.MCM_CLIENT_CLIENT_ID + " Integer, "
+				+ AppConstant.MCM_CLIENT_MEMBER_ID + " Integer,"
+				+ AppConstant.MCM_CLIENT_FIRST_NAME + " Text,"
+				+ AppConstant.MCM_CLIENT_LAST_NAME + " Text,"
+				+ AppConstant.MCM_CLIENT_CLIENT_CHURCH + " Text, "
+				+ AppConstant.MCM_CLIENT_CLIENT_EMAIL + " Text, "
+				+ AppConstant.MCM_CLIENT_CLIENT_PASSWORD + " Text, "
+				+ "FOREIGN KEY (" + AppConstant.MCM_CLIENT_CLIENT_ID
+				+ ") REFERENCES " + AppConstant.MEMBER_TABLE_NAME + " ("
+				+ AppConstant.MCM_MEMBER_CLIENT_ID + "), " + "FOREIGN KEY ("
+				+ AppConstant.MCM_CLIENT_MEMBER_ID + ") REFERENCES "
+				+ AppConstant.MEMBER_TABLE_NAME + "("
+				+ AppConstant.MCM_MEMBER_CLIENT_ID + "))";
+		SplashActivity.databaseHelper.createTable(database, ClientTableQuery);
+	}
+
+	public void memberAppMenuTable(SQLiteDatabase database) {
+		SplashActivity.databaseHelper.createTable(database,
+				" CREATE TABLE IF NOT EXISTS "
+						+ AppConstant.MEMBER_APP_MENU_TABLE_NAME + " ("
+						+ AppConstant.MEMBER_APP_MENU_CLIENT_ID + " Integer, "
+						+ AppConstant.MEMBER_APP_MENU_MEMBER_ID + " Integer,"
+						+ AppConstant.MEMBER_APP_MENU_ID + " Integer,"
+						+ AppConstant.MEMBER_APP_MENU_CLIENT_NAME + " Text,"
+						+ AppConstant.MEMBER_APP_MENU_NAME + " Text,"
+						+ AppConstant.MEMBER_APP_MENU_DISPLAY_ORDER_ID
+						+ " Integer,"
+						+ AppConstant.MEMBER_APP_MENU_THEME_IMAGE_LOCAL_PATH
+						+ " Text" + " );");
+	}
+
+	public void eventTable(SQLiteDatabase database) {
+		SplashActivity.databaseHelper
+				.createTable(database, " CREATE TABLE IF NOT EXISTS "
+						+ AppConstant.EVENT_TABLE_NAME + " ("
+						+ AppConstant.EVENT_EVENT_ID + " Integer, "
+						+ AppConstant.EVENT_CLIENT_ID + " Integer,"
+						+ AppConstant.EVENT_DATE_TIME + " Text,"
+						+ AppConstant.EVENT_DISPALY_START_DATE + " Text,"
+						+ AppConstant.EVENT_DISPALY_END_DATE + " Text,"
+						+ AppConstant.EVENT_TITLE + " Text,"
+						+ AppConstant.EVENT_SHORT_DESC + " Text,"
+						+ AppConstant.EVENT_LONG_DESC + " Text,"
+						+ AppConstant.EVENT_UPCOMING_EVENT + " Text,"
+						+ AppConstant.EVENT_LOCATION + " Text,"
+						+ AppConstant.EVENT_SET_REMINDER_FLAG + " Text" + " );");
+	}
+
+	public void notificationTable(SQLiteDatabase database) {
+		SplashActivity.databaseHelper.createTable(database,
+				" CREATE TABLE IF NOT EXISTS "
+						+ AppConstant.NOTIFICATION_TABLE_NAME + " ("
+						+ AppConstant.NCTN_PUSH_NOTIFICATION_ID + " Integer, "
+						+ AppConstant.NCTN_CLIENT_ID + " Integer,"
+						+ AppConstant.NCTN_DATE + " Text,"
+						+ AppConstant.NCTN_TITLE + " Text,"
+						+ AppConstant.NCTN_DETAILS + " Text,"
+						+ AppConstant.NCTN_STATUS + " Text,"
+						+ AppConstant.NCTN_SET_REMINDER + " Text,"
+						+ AppConstant.NCTN_RECURRING_REMINDER_DAYS + " Text,"
+						+ AppConstant.NCTN_SURVEY_FLAG + " Text" + " );");
+	}
+
+	public void reminderTable(SQLiteDatabase database) {
+		SplashActivity.databaseHelper
+				.createTable(database, " CREATE TABLE IF NOT EXISTS "
+						+ AppConstant.CHECK_REMINDER_TABLE + " ("
+						+ AppConstant.REMINDER_CLIENT_ID + " Integer, "
+						+ AppConstant.REMINDER_NAME + " Text,"
+						+ AppConstant.REMINDER_CLIENT_EMAIL + " Text,"
+						+ AppConstant.REMINDER_ID + " Long,"
+						+ AppConstant.REMINDER_IS_SET + " boolean" + " );");
+	}
+
+	public void createdatabase() {
+		if (SplashActivity.databaseHelper.isDatabaseExists(context
+				.getApplicationContext())) {
+			Log.e("DATABASE ALREADY EXIST", "" + "IT IS EXIST");
+		} else {
+			database = SplashActivity.databaseHelper.getWritableDatabase();
+			memberTable(database);
+			clientTable(database);
+			memberAppMenuTable(database);
+			eventTable(database);
+			notificationTable(database);
+			reminderTable(database);
+		}
+	}
+
+}

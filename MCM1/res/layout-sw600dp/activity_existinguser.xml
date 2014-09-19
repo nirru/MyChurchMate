@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" >
+
+        <include
+            android:id="@+id/include_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_header" />
+
+        <RelativeLayout
+            android:id="@+id/child_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bottom_banner_tb" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/white"
+                android:text="Powered By" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/child_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/child_bottom"
+            android:layout_below="@+id/include_one"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" >
+
+            <RelativeLayout
+                android:id="@+id/child_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:gravity="center"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/reg_sign_tb"
+                        android:text="Yes"
+                        android:layout_weight="1"
+                        android:visibility="invisible"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/reg_sign_tb"
+                        android:text="No"
+                        android:visibility="invisible"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/child_three"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size"
+                android:paddingBottom="10dp"
+                android:text="Welcome to MenuScreen" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

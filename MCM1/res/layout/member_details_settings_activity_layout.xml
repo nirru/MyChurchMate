@@ -1,0 +1,572 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mds_layoutMemberDetailsSettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@drawable/top_banner_02"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Settings - Member Details"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="10"
+             android:gravity="center"
+             android:orientation="horizontal" >
+
+      <TableLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_margin="0dp"
+          android:gravity="center"
+          android:padding="10dp" >
+	        
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corners"
+                android:gravity="center"
+                android:weightSum="3" >
+
+            <Button
+                android:id="@+id/mds_btnStep1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_step1"
+                android:text="Step 1"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mds_btnStep2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_step2"
+                android:text="Step 2"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mds_btnStep3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_step3"
+                android:text="Step 3"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+        </TableRow>
+   </TableLayout>
+
+        </LinearLayout>
+       
+<!-- main content -->
+
+      <!--  step1 linear layout  this will be shown first time to the user -->
+
+       <LinearLayout
+           android:id="@+id/mds_layoutStep1"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_weight="70"
+           android:orientation="vertical"
+           android:paddingLeft="30dp"
+           android:paddingRight="30dp"
+           android:visibility="gone" >
+           
+        <ScrollView 
+            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/mds_editFname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:clickable="true"
+                android:hint="Display First Name"
+                android:paddingLeft="25dp"
+                android:singleLine="true" >
+               
+            </EditText>
+
+            <EditText
+                android:id="@+id/mds_editSName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Display Surname"
+                android:paddingLeft="25dp"
+                android:singleLine="true"
+                 />
+
+            <EditText
+                android:id="@+id/mds_editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Display Email"
+                android:paddingLeft="25dp"
+                android:singleLine="true"
+                android:tag="ra_editSName" />
+            
+                 <EditText
+                android:id="@+id/mds_editHomeTelephone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Home Telephone"
+                android:paddingLeft="25dp"
+                android:singleLine="true"
+                 />
+
+            <EditText
+                android:id="@+id/mds_editDob"
+                
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Date of birth"
+               
+                android:paddingLeft="25dp"
+                android:singleLine="true" />
+              <ListView
+                android:id="@+id/mds_lvMaleFemale"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+               
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/centre_list"
+                android:drawSelectorOnTop="true"
+                android:hint="Male/Female"
+                android:paddingLeft="25dp" />
+            <EditText
+                android:id="@+id/ra_editProfession"
+                android:tag="ra_editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Profession"
+                android:paddingLeft="25dp"
+                android:singleLine="true" />
+             <ListView
+                android:id="@+id/mds_lvChurchMembershipType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/centre_list"
+                android:drawSelectorOnTop="true"
+                android:hint="Male/Female"
+                android:paddingLeft="25dp" />
+           
+
+            <Button
+                android:id="@+id/mds_btnStep1Next"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/large_blue_button"
+                android:onClick="btnRegisterClick"
+                android:text="Next"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+             </LinearLayout>  
+        </ScrollView>   
+
+            
+            
+        </LinearLayout>
+        <!-- ssssssssssssssssss       end of  step1 linear layout ssssssssssssssssssssssssssssssssssssss   -->
+        
+       <!--  step2 linear layout will be hidden first time -->
+
+        <LinearLayout
+            android:id="@+id/mds_layoutStep2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="70"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:visibility="visible" >
+
+          <ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout 
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                 >
+            <EditText
+                android:id="@+id/ra_editAddress1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:clickable="true"
+                android:hint="Address 1"
+                android:paddingLeft="25dp"
+               
+                 />
+               
+            
+
+            <EditText
+                android:id="@+id/ra_editAddress2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Address 2"
+                android:paddingLeft="25dp"
+                
+                 />
+
+            <EditText
+                android:id="@+id/ra_editStreet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Street"
+               
+                android:paddingLeft="25dp"
+                android:singleLine="true" />
+            
+                 <EditText
+                android:id="@+id/ra_editTown"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Town"
+                android:paddingLeft="25dp"
+                android:singleLine="true"
+                 />
+
+            <EditText
+                android:id="@+id/ra_editCity"
+                
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="City"
+               
+                android:paddingLeft="25dp"
+                android:singleLine="true" />
+              <EditText
+                android:id="@+id/ra_editDistrictCountry"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:singleLine="true"
+                android:hint="District/Country"
+                android:paddingLeft="25dp" />
+            <EditText
+                android:id="@+id/ra_editPostcode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Postcode"
+                android:paddingLeft="25dp"
+                android:singleLine="true" />
+             <EditText
+                android:id="@+id/ra_editCountry"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/name_text_tb"
+                android:hint="Country"
+                android:paddingLeft="25dp"
+                android:singleLine="true" />
+           <!-- below to show prev, next button horizontally we linearlayout with horizontal orientation -->
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:weightSum="100" >
+
+            <Button
+                android:id="@+id/mds_btnStep2Previous"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="45"
+                android:background="@drawable/next_prev_blue_btn"
+                android:text="Previous"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+              <View
+                  android:layout_width="0dp"
+                  android:layout_height="10dp"
+                  android:layout_weight="10" />
+
+            <Button
+                android:id="@+id/mds_btnStep2Next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="45"
+                android:background="@drawable/next_prev_blue_btn"
+                android:text="Next"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            </LinearLayout>
+            </LinearLayout>  
+        </ScrollView>  
+            
+            
+            
+            
+        </LinearLayout>
+        <!-- sssssssssssssss             end of  step2 linear layout hidden sssssssssssssssssssssssssssssss   -->       
+        
+         <!--  step3 linear layout will be hidden first time -->
+
+        <LinearLayout
+            android:id="@+id/mds_layoutStep3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="70"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone"
+            android:weightSum="100" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="90"
+                android:background="@drawable/interest_bg"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/ra_tvFormMsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Select your interests/Hobbies"
+                    android:textColor="#fff"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+  <!--  adding scrollbar to checkbox linear layout  -->
+        <ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_drawable"
+                        android:text="Sports"
+                        android:textColor="#000" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_drawable"
+                        android:text="Music"
+                        android:textColor="#000" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_drawable"
+                        android:text="Voluntary Help"
+                        android:textColor="#000" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_drawable"
+                        android:text="Helping Children"
+                        android:textColor="#000" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_drawable"
+                        android:text="Evanglism"
+                        android:textColor="#000" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_drawable"
+                        android:text="Serving"
+                        android:textColor="#000" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_drawable"
+                        android:text="Youth Support"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+              </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="100" >
+
+                    <Button
+                        android:id="@+id/mds_btnStep3Previous"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="45"
+                        android:background="@drawable/next_prev_blue_btn"
+                        android:text="Previous"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="10dp"
+                        android:layout_weight="5" />
+
+                    <Button
+                        android:id="@+id/mds_btnStep3SaveAndReturnToHome"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:background="@drawable/next_prev_blue_btn"
+                        android:text="Save And Return to Home"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- sssssssssssssss end of  step3 linear layout hidden sssssssssssssssssssssssssssssss          -->       
+          
+        
+        
+        
+    <!-- main content ends  -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/mcm_white_text_03" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/bottom_banner_02"
+        android:gravity="left|center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="POWERED BY"
+            android:textColor="#FFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+</LinearLayout>

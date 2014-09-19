@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.mcm.login.LoginActivity"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.widget.RelativeLayout"/>
+<fullyQualifiedTypeName name="android.view.animation.Animation.AnimationListener"/>
+<fullyQualifiedTypeName name="org.jivesoftware.smackx.muc.MultiUserChat"/>
+<fullyQualifiedTypeName name="android.content.ContentResolver"/>
+<fullyQualifiedTypeName name="com.mcm.R.id"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.CommonDataKinds.Event"/>
+<fullyQualifiedTypeName name="android.util.EventLog.Event"/>
+<fullyQualifiedTypeName name="com.mcm.menuandnotification.EventsDetails"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.mcm.database.InsertTable"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
+<fullyQualifiedTypeName name="com.mcm.SplashActivity"/>
+<fullyQualifiedTypeName name="com.mcm.database.AppConstant"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+</qualifiedTypeNameHistroy>

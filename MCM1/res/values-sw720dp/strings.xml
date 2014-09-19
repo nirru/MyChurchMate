@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="msglbl">"Message : "</string>
+    <string name="title1">Title1</string>
+    <string name="title2">Title2</string>
+    <string name="title3">Title3</string>
+    <string name="title4">Title4</string>
+    <string name="title5">Title5</string>
+    <string name="mode">Mode</string>
+    <string name="mode_left">Left</string>
+    <string name="mode_right">Right</string>
+    <string name="image_desc">Image</string>
+    <string name="app_name">My Church Mate</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mychurchmate">My Church Mate</string>
+    <string name="splash_title">MyChurchmate\nApp brings the\nChurch\nTogether</string>
+    <string name="reg_sign_title">Get connected\nTo\nYour\nChurch</string>
+    <string name="SelectSex">Select Male/Female</string>
+    <string name="SelectMemberShip">Select Church MemberShip</string>
+
+    <string name="gender_prompt">Select Gender</string>
+    <string-array name="gender_aray">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    
+</resources>

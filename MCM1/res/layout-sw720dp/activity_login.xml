@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" >
+
+        <include
+            android:id="@+id/include_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_header" />
+
+        <RelativeLayout
+            android:id="@+id/child_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/child_bottom"
+            android:layout_below="@+id/include_one" >
+
+            <RelativeLayout
+                android:id="@+id/child_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mcm_white_text_03"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/child_two"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/child_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/la_spChurchCentre"
+                        android:layout_marginTop="10dp"
+                        android:text="Your Church"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size" />
+
+                    <Spinner
+                        android:id="@+id/la_spChurchCentre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/la_editEmail"
+                        android:layout_alignRight="@+id/la_editEmail"
+                        android:layout_below="@+id/textView1"
+                        android:background="@drawable/centre_list_tb"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="15dp" />
+
+                    <EditText
+                        android:id="@+id/la_editEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/email_text_tb"
+                        android:ems="10"
+                        android:hint="Please enter Email address"
+                        android:textSize="@dimen/edit_text_size"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/la_editEmail"
+                        android:layout_below="@+id/la_spChurchCentre"
+                        android:textSize="@dimen/edit_text_size"
+                        android:text="Login Credential"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/la_editPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/la_editEmail"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/password_text_tb"
+                        android:ems="10"
+                        android:hint="Please enter password"
+                        android:textSize="@dimen/edit_text_size"
+                        android:inputType="textPassword" />
+
+                    <TextView
+                        android:id="@+id/la_tvErrorMsg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/la_btnLogin"
+                        android:layout_alignRight="@+id/la_btnLogin"
+                        android:layout_below="@+id/la_editPass"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left|center"
+                        android:text="error"
+                        android:textSize="@dimen/edit_text_size"
+                        android:textColor="@color/forgot_password" />
+
+                    <Button
+                        android:id="@+id/la_btnLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/la_editEmail"
+                        android:layout_alignRight="@+id/la_editEmail"
+                        android:layout_below="@+id/la_tvErrorMsg"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/loginbutton_tb"
+                        android:gravity="center"
+                        android:text="Login"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/la_forfotpaswword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/la_btnLogin"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        android:text="Forgot password?"
+                        android:textSize="@dimen/edit_text_size"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/la_underline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_alignLeft="@+id/la_forfotpaswword"
+                        android:layout_alignRight="@+id/la_forfotpaswword"
+                        android:layout_below="@+id/la_forfotpaswword"
+                        android:background="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/la_underline"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:textSize="@dimen/edit_text_size"
+                        android:text="Sign in as different user?"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/la_underline_differnetuser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_alignLeft="@+id/textView4"
+                        android:layout_alignRight="@+id/textView4"
+                        android:layout_below="@+id/textView4"
+                        android:background="@color/white" />
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/child_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bottom_banner_02" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:text="POWERED BY"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

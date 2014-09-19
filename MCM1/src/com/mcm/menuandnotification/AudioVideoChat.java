@@ -1,0 +1,18 @@
+package com.mcm.menuandnotification;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+import com.mcm.R;
+
+public class AudioVideoChat extends Activity{
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.group_chat_activity_layout);
+	}
+
+}

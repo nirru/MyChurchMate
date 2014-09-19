@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="red">#FF0000</color>
+    <color name="bluedark">#4181ee</color>
+    <color name="bluelight">#2963b4</color>
+    <color name="textdesc">#282828</color>
+    <color name="forgot_password">#ebe4e5</color>
+    <color name="error_color">#ed907b</color>
+    <color name="event_details_white">#e6e8e5</color>
+    <color name="events_details_black">#222933</color>
+    <color name="event_detail_text_color">#212320</color>
+    <color name="side_navigation_background">#303030</color>
+    <color name="side_navigation_outside_background">#7000</color>
+    <color name="side_navigation_list_divider_color">#4f4f4f</color>
+    <color name="side_navigation_item_text_color">#f3f3f3</color>
+    <color name="blue_border">#7586A7</color>
+    <color name="event_sub_header">#323641</color>
+    <color name="event_date_box">#AAAAAA</color>
+    <color name="fg_event_list_row">#424242</color>
+    <color name="notication_date_box">#9fa4a6</color>
+    <color name="green">#8FCC85</color>
+    <color name="blue">#ff33b5e5</color>
+
+</resources>
