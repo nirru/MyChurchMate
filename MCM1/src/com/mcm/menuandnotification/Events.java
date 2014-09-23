@@ -19,6 +19,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.AbsListView.OnScrollListener;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -27,7 +29,7 @@ import android.widget.TextView;
 import com.mcm.R;
 import com.mcm.database.GetDataFromDatabase;
 
-public class Events extends Fragment {
+public class Events extends Fragment implements OnScrollListener {
 	TextView textView, event_fragement_header;
 	ListView listView;
 	ListView upcoming_listView;
@@ -44,6 +46,9 @@ public class Events extends Fragment {
 	String email_String;
 	EventListAdaptor eventListAdaptor, eventListAdaptor1;
 	Date currentDate;
+	int currentFirstVisibleItem, currentVisibleItemCount, currentScrollState;
+	boolean isLoading = false;
+	int offset;
 
 	public Events(Context context, int clientID, String folderName,
 			String email_String) {
@@ -52,7 +57,7 @@ public class Events extends Fragment {
 		this.context = context;
 		this.folderName = folderName;
 		this.email_String = email_String;
-//		Log.e("FolderName", "" + folderName);
+		// Log.e("FolderName", "" + folderName);
 	}
 
 	@Override
@@ -62,22 +67,22 @@ public class Events extends Fragment {
 				false);
 		init(rootView);
 		setBackground("EventsBG.png", folderName, event_fragement_background);
-//		getThumbnail("upcoming-events-bg.png", folderName, upComingEvents);
+		// getThumbnail("upcoming-events-bg.png", folderName, upComingEvents);
 		return rootView;
 	}
 
 	private void init(View rootView) {
-		
+
 		currentDate = new Date(System.currentTimeMillis());
-//		Log.e("CURRENT TIMME for calneder", "" + currentDate);
+		// Log.e("CURRENT TIMME for calneder", "" + currentDate);
 		mpProgressDialog = new ProgressDialog(context);
 		getDataFromDatabase = new GetDataFromDatabase();
 		// Log.e("CLIENT ID IN EVENTS FRAGEMENTS", "" + clientID);
 		eventsList = getDataFromDatabase.GetAllEvents(clientID);
-		
-//		Log.e("EVENT LIST", "" + eventsList);
+
+		// Log.e("EVENT LIST", "" + eventsList);
 		upcomingeventsList = getDataFromDatabase.GetEvents(clientID, true);
-       
+
 		event_fragement_header = (TextView) rootView
 				.findViewById(R.id.ev_fr_event_header);
 		upComingEvents = (RelativeLayout) rootView
@@ -91,13 +96,16 @@ public class Events extends Fragment {
 		refresh_img = (ImageView) rootView.findViewById(R.id.imageView1);
 		refresh_img.setOnClickListener(l);
 
-		 eventListAdaptor = new EventListAdaptor(context,
-				eventsList, R.layout.event_fragement_row, folderName, currentDate, email_String,clientID);
+		eventListAdaptor = new EventListAdaptor(context, eventsList,
+				R.layout.event_fragement_row, folderName, currentDate,
+				email_String, clientID);
 		listView.setAdapter(eventListAdaptor);
-		 eventListAdaptor1 = new EventListAdaptor(context,
-				upcomingeventsList, R.layout.event_fragement_row, folderName, currentDate,email_String, clientID);
+		eventListAdaptor1 = new EventListAdaptor(context, upcomingeventsList,
+				R.layout.event_fragement_row, folderName, currentDate,
+				email_String, clientID);
 		upcoming_listView.setAdapter(eventListAdaptor1);
 
+//		listView.setOnScrollListener(this);
 	}
 
 	View.OnClickListener l = new OnClickListener() {
@@ -141,6 +149,44 @@ public class Events extends Fragment {
 	}
 
 	private void startAsynTask() {
-		new RefreshAsyn(context, mpProgressDialog, email_String,eventListAdaptor,eventListAdaptor1,listView, upcoming_listView,clientID,folderName).execute("");
+		new RefreshAsyn(context, mpProgressDialog, email_String,
+				eventListAdaptor, eventListAdaptor1, listView,
+				upcoming_listView, clientID, folderName).execute("");
+	}
+
+	@Override
+	public void onScrollStateChanged(AbsListView view, int scrollState) {
+		// TODO Auto-generated method stub
+		this.currentScrollState = scrollState;
+		this.isScrollCompleted();
+	}
+
+	@Override
+	public void onScroll(AbsListView view, int firstVisibleItem,
+			int visibleItemCount, int totalItemCount) {
+		// TODO Auto-generated method stub
+		this.currentFirstVisibleItem = firstVisibleItem;
+		this.currentVisibleItemCount = visibleItemCount;
+	}
+
+	private void isScrollCompleted() {
+		if (this.currentVisibleItemCount > 0
+				&& this.currentScrollState == SCROLL_STATE_IDLE) {
+			/***
+			 * In this way I detect if there's been a scroll which has completed
+			 ***/
+			/*** do the work for load more date! ***/
+//			if (!isLoading) {
+				isLoading = true;
+				offset = offset + 5;
+				Log.e("MY SCROLING IS DONE", "  " + offset);
+				eventsList = getDataFromDatabase.GetAllEvents(clientID);
+				eventListAdaptor = new EventListAdaptor(context, eventsList,
+						R.layout.event_fragement_row, folderName, currentDate,
+						email_String, clientID);
+				listView.setAdapter(eventListAdaptor);
+//			}
+
+		}
 	}
 }

@@ -179,7 +179,7 @@ public class GetDataFromDatabase {
 			String whereClause = " SELECT  *  From "
 					+ AppConstant.EVENT_TABLE_NAME + " WHERE "
 					+ AppConstant.EVENT_CLIENT_ID + "='" + ClientId +  "'" + " ORDER BY " + AppConstant.EVENT_DATE_TIME;
-			;
+			
 
 			SQLiteDatabase database = SplashActivity.databaseHelper
 					.getReadableDatabase();

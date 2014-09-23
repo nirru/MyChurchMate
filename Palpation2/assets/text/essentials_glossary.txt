@@ -1,0 +1,307 @@
+*Bone Terminology
+Bone
+the basis of the skeletal system, considered dense connective tissue
+Coxal
+refers to the hip
+
+*Bony Landmark Terminology
+Bony Landmarks 
+a specific location or mark on a bone
+Landmarks
+a specific location or mark on a bone
+
+*Directional Terminology
+Anterior 
+towards the front of the body
+Bilateral 
+both sides
+Distal 
+a point away from the reference point, such as the distal attachment of a muscle
+Deep 
+means closer to the bony surface
+Inferior 
+a location that is below 
+Intermediate 
+is a layer of tissue or muscle somewhere between the superficial and deep layers
+Lateral
+away from the midline of the body
+Medial 
+towards the midline of the body
+Posterior 
+towards the back of the body
+Proximal 
+a point closest to the reference point, such as the proximal attachment of a muscle
+Superficial 
+towards the surface
+Superior 
+a location that is above 
+
+*Joint Terminology
+Amphiarthrotic
+the functional classification of a joint that is slightly moveable
+Ball and Socket
+a joint that has a round ball shaped bone that articulates with a round depression of another bone, can move in all three planes
+Bursa
+a fluid filled sac that reduces friction between various anatomical structures
+Cartilaginous
+a specialized dense connective tissue that provides cushion and reduces friction between bones or articulating surfaces
+Diarthrotic
+the functional classification of a joint that is freely moveable
+Ellipsoid/condyloid
+a biaxial joint where a condyle articulates with an elliptical cavity
+Glenohumeral joint
+the joint formed by the glenoid cavity of the scapula and the head of the humerus
+Gliding
+a joint that has bones that articulate with a flat or slightly curved surface
+Hinge
+a synovial joint that moves only in the sagittal plane
+Humeroradial joint
+the condylar joint of the elbow where the humerus meets the radius
+Humeroulnar joint
+the hinge joint of the elbow where the humerus meets the ulna
+Joint cavity
+the space and encapsulation between two or more articulating bones
+Joint capsule 
+consists of an outer fibrous capsule and inner synovial membrane that encloses the ends of the articulating bones
+Joint 
+the junction between two or more bones, an articulation
+Pivot joint
+a joint that only allows a rotatory movement pattern
+Radiocarpal joint
+the condylar articulation between the distal radius and the proximal row of carpal bones
+Radioulnar joint
+the articulation between the distal end of the radius and the proximal end of ulna
+Scapulothoracic joint
+the false joint formed by anterior scapula and the posterior thoracic ribs
+Saddle joint
+opposing surfaces that are reciprocally concave and convex
+Spinal joints
+the facet or intervertebral joints of the spine
+Synarthrotic
+the functional classification of a fibrous joint that allows little to no movement
+Synovial
+joints that have a joint cavity, joint capsule, hyaline cartilage and synovial fluid
+Synovial fluid
+a viscous fluid secreted by the synovial membrane that lubricates the joint
+Synovial membrane
+the thin membrane inside the fibrous capsule
+Talocrural joint
+the hinge articulation between the tibia and the talus,the “true” ankle joint
+Wrist joint
+the ellipsoid joint between the distal radius and the proximal row of carpals
+
+*Ligament Terminology
+Ligament 
+connects bone-to-bone, stabilizing the joint and restricting excessive movement 
+
+*Movement Terminology
+Abduction 
+movement of the extremities in the frontal plane away from the midline of the body
+Action 
+the movement created by a muscle contraction at a given joint
+Actively 
+when the client voluntarily moves the body part
+Active Range of Motion 
+(AROM) when the client is instructed to perform a specific movement or set of movements
+Adduction 
+movement of the extremities in the frontal plane towards the midline of the body
+Anatomical restrictions 
+a normal or abnormal condition or state of an anatomical structure which limits movement or restricts flexibility
+Depression 
+movement of the scapula or mandible in an inferior direction
+Downward rotation 
+rotational movement of the glenoid cavity in an inferior direction
+Elevation 
+movement of the scapula or mandible in a superior direction
+Eversion 
+movement at the intertarsal joints facing the plantar surface of the foot laterally
+Extension 
+typically a posterior movement of the body part in the sagittal plane
+External rotation 
+rotation of the anterior surface of the humerus, femur or tibia away from the midline of the body
+Firm end feel
+the quality felt at the end of passive range of motion where tissue stretch and tissue compression occur
+Flexion 
+typically an anterior movement of the body part in the sagittal plane
+Frontal axis
+a line that runs perpendicular to the sagittal plane around which movement occurs
+Frontal plane
+the imaginary plane that divides the body into anterior and posterior sections
+Hard end feel 
+the quality felt at the end of passive range of motion where bone meets bone
+Internal rotation 
+rotation of the anterior surface of the humerus, femur or tibia towards the midline of the body
+Inversion 
+movement at the intertarsal joints facing the plantar surface of the foot medially
+Lateral flexion 
+movement of the head or trunk away from the midline of the body in the frontal plane
+Lateral rotation 
+rotation of the anterior surface of the humerus, femur or tibia away from the midline of the body
+Longitudinal axis
+a line that runs perpendicular to the transverse plane around which rotation occurs
+Medial rotation 
+rotation of the anterior surface of the humerus, femur or tibia towards the midline of the body
+Passive range of motion 
+when the therapist moves the client’s body through a designated movement or pattern of movements
+Pronation 
+medial rotation of the radius as in turning the palm of the hand anteriorly
+Protraction 
+movement of the scapula or mandible in an anterior direction
+Radial deviation
+movement of the hand away from the midline of the body, abduction of the wrist
+Range of motion 
+the amount of movement at a given joint
+Resisted range of motion 
+(RROM) when therapist resists the client’s effort to contract the target muscle group
+Restricted range of motion
+the lack of movement or flexibility at a given joint
+Restricted
+limited in the amount of movement or flexibility
+Retraction 
+movement of the scapula or mandible in a posterior direction
+Rotation 
+movement around a center
+Sagittal axis
+a line that runs perpendicular to the frontal plane around which abduction and adduction occurs
+Sagittal plane
+the imaginary plane that divides the body into right and left sections
+Soft end feel
+the quality felt at the end of passive range of motion where soft tissue approximation occurs
+Transverse plane
+the imaginary plane that divides the body into an upper and lower sections
+Ulnar deviation
+movement of the hand towards the midline of the body, adduction of the wrist
+Upward rotation 
+a rotational movement of the glenoid cavity in a superior direction
+Quality of movement 
+the fluidity or lack of fluidity of a given movement pattern
+
+*Muscle Terminology
+Agonist
+a muscle that is responsible for a specific joint movement
+Antagonist
+a muscle that opposes the action of another muscle
+Attachment sites
+usually bony landmarks where the muscles or tendons attach 
+Concentric contraction
+a muscle contraction where the attachment points move closer together
+Contractility
+the ability to contract, as in muscle contraction
+Golgi tendon organ
+part of the proprioception system that regulates and monitors muscle tension
+Eccentric contraction
+a muscle contraction where the attachment sites move away from each other
+Fast twitch fibers
+large muscle fibers that contract quickly
+Fiber direction
+the arrangement of the striations of a muscle
+Hypertonic
+excessive muscle tone
+Hypotonic
+lack of muscle tone
+Insertion 
+the more moveable muscle attachment site on a bone
+Intermediate fibers
+are fast twitch fibers that have been converted to slow twitch fibers via endurance training
+Irregular
+not even or balanced in shape, arrangement or frequency
+Isometric contraction
+a muscle contraction without joint movement
+Isotonic contraction
+a muscle contraction with joint movement
+Motor unit 
+a single motor neuron and the muscle cells it activates
+Motor unit recruitment 
+the increasing activation of a muscle through the recruitment of additional motor units
+Muscle belly 
+the fleshy center of the muscle
+Muscle spindle
+sensory receptors within the muscle belly that monitor changes in length of a given muscle
+Muscle 
+a bundle of specialized fibers (cells) that contract to hold positions of the body or move a joint
+Origin
+the more stationary muscle attachment site on a bone
+Skeletal muscles
+a muscle that connects to bones and moves the joints of the skeleton
+Slow twitch fibers
+small skeletal muscle fibers that develop tension more slowly
+Synergist
+a muscle that shares the same action as another muscle at the same joint 
+Target muscle
+the single muscle that is the point of focus for palpation or manual therapy 
+Tendon 
+a fibrous cord that attaches muscle to bone
+Tissue quality
+a term used to describe the palpable texture or felt sensation of a muscle, soft tissue or structure of the body
+Tissue texture 
+a palpable distinction related to a muscle, tendon, ligament, fascia or skin
+
+*Palpation Terminology
+Anatomical tools
+parts of the body such as the hands, fingers, knuckles, thumbs or elbows, which are used to perform certain palpation activities or application methods
+Kinesthetic skills
+the physical skills associated with a task like palpation or manual therapy
+Palpable findings 
+the practitioner’s felt sensation of the muscle, soft tissue or structure of the body 
+Palpate 
+to evaluate by touch
+Palpation
+the act of using one’s hands to examine, locate and manipulate a muscle, soft tissue or structure of the body
+Physical characteristics 
+a categorization used to describe the texture and condition of a muscle, soft tissue or structure of the body
+Physiological restrictions
+the natural limitations related to a joint, body structure or system
+
+*Pathology Terminology
+Adhesion
+two or more surfaces being adhered or stuck together as in a fascial adhesion
+Anterior tilt
+an anterior movement of the front of the bone as witnessed with the winging of the scapula or anterior rotation of the ilium
+Bursitis
+an inflammatory condition of the bursa
+Inflammation
+a localized reaction to irritation or injury causing redness, swelling, heat, pain and loss of function
+Posterior tilt
+a posterior movement of the back of the bone as witnessed with the scapula or ilium
+Structural asymmetry
+an imbalance of the bone, muscle or soft tissue of the body
+
+*Miscellaneous Terminology
+Body mechanics 
+the body’s positioning and alignment when performing a physical task like palpating a muscle or applying a manual technique
+Cognitive skills
+the mental ability to interpret, process and respond to information and communication
+Communication skills 
+the ability to effectively verbalize responses, desires and meaning
+Conductivity
+the ability of nerves to transmit impulses that communicate various functions within the body
+Elasticity
+the tissues ability to stretch
+Excitability
+the electrochemical sensitivity of a body part, usually nerve or muscle
+Extensibility
+the ability to extend or protrude
+Fascia 
+a sheath of fibrous connective tissue that envelops muscles or organs
+Fibrous
+consisting of or characterized by fibers
+Healthy
+feeling good physically, mentally and spiritually 
+Layers of tissue 
+the cellular organization of specific groupings of tissue often arranged in layers
+Mechanical function 
+the relationship and interaction between muscles, joints, and nerves during the execution of various activities involving the body
+Posture 
+the body’s position and alignment while standing, sitting or lying down
+Pronunciation 
+the ability to accurately say a word  
+Proprioception
+the ability to know where your body is in relationship to space
+Smooth
+an even or regular surface
+Superficial fascia
+mainly loose connective tissue and adipose, giving shape to the body
+Symmetry
+two sides or halves that are the same size, shape and position
+Temperature differences
+the felt differences in relationship to the amount of heat produced by the body and or its parts

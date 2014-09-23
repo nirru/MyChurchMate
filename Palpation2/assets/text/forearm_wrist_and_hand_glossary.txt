@@ -1,0 +1,217 @@
+*Bone Terminology
+Capitate
+the largest carpal bone in the hand, located in the center of the wrist, articulates with the third metacarpal
+Capitulum
+a round eminence at the distal end of the humerus, articulates with the radius
+Carpal arch 
+formed by the carpals of the hand, forms the posterior surface and walls of the carpal tunnel
+Carpals
+the eight small bones found in the wrist
+Hamate
+the most lateral carpal bone of the distal carpal row, articulates with metacarpals 4 and 5
+Humerus
+the long bone of the upper arm
+Lunate
+a crescent shaped carpal bone, located in middle of the proximal carpal row between the scaphoid and triquetrum, forms part of the radiocarpal joint
+Metacarpals
+five long bones attaching to the distal carpals, forming the palm of the hand and the ball of the thumb
+Phalanges
+segments of the fingers, two in the thumb, and three in the four other digits
+Pisiform
+a small, round carpal bone located on the lateral proximal carpal row, insertion of the flexor carpi ulnaris (not part of the radiocarpal joint)
+Radius
+the lateral bone of the forearm
+Scaphoid
+a large carpal bone located on the most lateral of the proximal carpal row, forms part of the radiocarpal joint
+Trapezium
+a carpal bone located on the most lateral of the distal carpal row, articulates with the thumb
+Trapezoid
+a carpal bone located on the distal carpal row between the trapezium and capitate, articulates with the third metacarpal
+Triquetrum
+the triangular carpal bone located on the proximal carpal row medial to the lunate, forms part of the radiocarpal joint
+Ulna
+the medial bone of the forearm
+
+*Bony Landmark Terminology
+Coronoid fossa
+an indentation on the distal anterior humerus
+Head
+the prominent enlargements at the ends of the metacarpals
+Head of the radius 
+the prominent proximal end of the radius that articulates with the ulna at the proximal radioulnar joint
+Landmarks 
+a specific location or mark on a bone
+Lateral condyle (capitulum)
+a spherical surface on the distal humerus that articulates with the radius (humeroradial joint)
+Lateral epicondyle
+a sharp projection on the lateral humerus just proximal to the elbow, proximal attachment for some of the extensors of the forearm
+Lateral supracondylar ridge
+a sharp edge of bone continuing proximally from the lateral epicondyle
+Medial condyle (trochlea)
+a crescent shaped surface that articulates with the ulna (humeroulnar joint)
+Medial epicondyle
+a sharp projection of bone on the medial humerus just proximal to the elbow, proximal attachment for some of the flexors of the forearm
+Medial supracondylar ridge
+a sharp edge of bone continuing proximally from the medial epicondyle
+Neck
+a narrowing of a bone next to the head
+Olecranon
+a bony projection at the proximal end of the ulna, attachment of the triceps, the “point of the elbow”
+Radial notch
+a joint surface on the proximal lateral surface of the ulna that forms an articulation for the head of the radius (proximal radioulnar joint)
+Radial tuberosity
+a prominent bony projection on the anterior proximal radius, distal attachment of the biceps brachii
+Shaft
+the middle part of a long bone
+Styloid process
+one of two sharp, “pen like” points of bone found at the distal ends of the radius and the ulna
+Trochlear notch
+a crescent shaped notch at the proximal anterior ulna, fits the trochlea of the humerus to form the humeroulnar joint
+
+*Joint Terminology
+Carpometacarpal joints
+the gliding joints between the distal row of carpal bones and the metacarpals 2-4, the saddle joint between the trapezium and 1st metacarpal 
+Distal interphalangeal joints
+the hinge joints between the middle and distal phalanges
+Distal radioulnar joint
+a pivot joint between the ulnar head and the ulnar notch of the radius
+Elbow
+the area of the body between the upper arm and the forearm
+Ellipsoid joint
+a joint that moves in the frontal and sagittal planes
+Humeroradial joint
+the condylar joint of the elbow where the humerus meets the radius
+Humeroulnar joint
+the hinge joint of the elbow where the humerus meets the ulna
+Intercarpal joints
+the gliding joints that connect the carpal bones, provide slight flexibility of the carpal arch
+Metacarpophalangeal joints
+the ellipsoid joints between the metacarpals and the proximal phalanges
+Midcarpal joint
+the gliding joints between the proximal and the distal rows of the carpals
+Proximal interphalangeal joints
+the hinge joints between the proximal and middle phalanges
+Proximal radioulnar joint
+a pivot joint between the head of the radius and the radial notch of the ulna
+Radiocarpal joint
+the ellipsoidal joint between the distal radius and the proximal row of carpals
+Saddle joint
+a joint between two congruent saddle-shaped surfaces that allows partial rotation and flexion, “the thumb joint”
+Synovial hinge
+a joint that moves only in the sagittal plane
+Wrist joint
+the ellipsoid joint between the distal radius and the proximal row of carpals (radiocarpal joint)
+
+*Ligament Terminology
+Annular ligament
+a strong ring shaped ligament that wraps around the head of the radius connecting the radius to the ulna
+Carpal tunnel
+a small osseoligamentous tunnel that includes the carpal bones of the wrist and the transverse carpal ligament
+Radial collateral ligament
+a ligament that connects the lateral epicondyle to the annular ligament
+Transverse carpal ligament
+a thick fibrous ligament connecting the hamate bone to the trapezium, forms the anterior wall of the carpal tunnel, also referred to as the flexor retinaculum
+Ulnar collateral ligament
+a ligament that connects the medial epicondyle of the humerus to the medial olecranon and coronoid process of the ulna
+
+*Muscle Terminology
+Action 
+the movement created by a muscle contraction at a given joint
+Antagonists 
+a muscle that opposes the action of another muscle
+Brachioradialis
+a superficial muscle of the forearm that crosses the elbow but does not cross the wrist joint
+Extensor carpi radialis brevis
+intermediate layer muscle of the extensor compartment that extends and abducts the wrist
+Extensor carpi radialis longus
+superficial layer muscle of the extensor compartment that extends and abducts the wrist
+Extensor carpi ulnaris
+superficial layer muscle of the extensor compartment that extends and adducts the wrist
+Extensor digitorum
+superficial layer muscle of the extensor compartment that extends digits 2-5
+Extensor carpi radialis brevis
+intermediate layer muscle of the extensor compartment that extends and abducts the wrist
+Extensor carpi radialis longus
+superficial layer muscle of the extensor compartment that extends and abducts the wrist
+Extensor carpi ulnaris
+superficial layer muscle of the extensor compartment that extends and adducts the wrist
+Extensor digitorum
+superficial layer muscle of the extensor compartment that extends digits 2-5
+Fiber direction 
+the arrangement of the striations of a muscle
+Flexion 
+an anterior movement of the elbow, wrist and hand in the sagittal plane
+Flexor carpi radialis
+intermediate layer muscle of the flexor compartment that flexes and abducts the wrist
+Flexor carpi ulnaris
+superficial layer muscle of the flexor compartment that flexes and adducts the wrist
+Flexor digitorum profundus
+deep layer muscle of the flexor compartment that flexes digits 2-5
+Flexor digitorum superficialis
+intermediate layer muscle of the flexor compartment that flexes digits 2-5
+Insertion 
+the more moveable muscle attachment site upon a bone
+Isometric contraction 
+a muscle contraction without joint movement
+Muscle belly 
+the fleshy center of the muscle
+Origin
+the more stationary muscle attachment site on a bone
+Palmaris longus
+superficial layer muscle of the flexor compartment that is absent in approximately 20% of forearms
+Pronator teres
+intermediate layer muscle of the flexor compartment that does not cross the wrist joint and pronates forearm
+Supinator
+deep muscle layer muscle on the lateral radius that supinates forearm
+
+*Movement Terminology
+Body mechanics 
+the body’s positioning and alignment when performing a physical task like palpating a muscle or applying a manual technique
+Extension 
+a posterior movement of the elbow, wrist and hand in the sagittal plane
+Opposition
+medial rotation and flexion of the thumb across the hand in opposition to the other digits
+Pronation 
+medial rotation of the radius as in turning the palm of the hand posteriorly
+Radial deviation
+movement of the hand away from the midline of the body, also called abduction 
+Supination
+lateral rotation of the radius as in turning the palm of the hand anteriorly
+Ulnar deviation
+movement of the hand towards the midline of the body, also called adduction
+
+*Palpation Terminology
+Palpable findings 
+the practitioner’s felt sensation of the muscle, soft tissue or structure of the body 
+Palpate 
+to evaluate by touch
+Palpation 
+the act of using one’s hands to examine, locate and manipulate a muscle, soft tissue or structure of the body
+Tissue quality
+a term used to describe the palpable texture or felt sensation of a muscle, soft tissue or structure of the body
+
+*Miscellaneous Terminology
+Extensor retinaculum
+a thickening of the superficial fascia at the posterior wrist joint that restrains the extensor tendons
+Flexor retinaculum
+a thickening in the anterior distal superficial fascia of the forearm and the term often refers to the transverse carpal ligament 
+Forearm
+the segment of the upper limb distal to the elbow and proximal to the wrist joint
+Hand
+the segment of the upper limb distal to the wrist joint
+Interosseous membrane in the forearm
+a fibrous connective tissue sheet connecting radius and ulna along most of their length, attachment surface for muscles of the forearm
+Mechanical function 
+the relationship and interaction between muscles, joints and nerves during the execution of various activities involving the body
+Palmar aponeurosis
+the thick fascia of the palm, distal attachment of the palmaris longus
+Physical characteristics 
+a categorization used to describe the texture and condition of a muscle, soft tissue or structure
+Posture 
+the body’s position and alignment while standing, sitting or lying down
+Pronunciation 
+the ability to accurately say a word  
+Proximal 
+a point closest to the reference point, such as the proximal attachment of a muscle
+Distal
+a point away from the reference point, such as the distal attachment of a muscle

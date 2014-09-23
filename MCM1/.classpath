@@ -11,7 +11,6 @@
 			<attribute name="javadoc_location" value="file:/D:/Programs/adt-bundle-windows-x86-20140321/adt-bundle-windows-x86-20140321/sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/../../../docs/reference/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="/CaldroidLibrary"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

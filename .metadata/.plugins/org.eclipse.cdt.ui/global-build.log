@@ -453,3 +453,38 @@ python D:/WorspaceNirmal/Palpation2/build_native.py clean
 Couldn't find the gcc toolchain.
 
 **** Build Finished ****
+
+**** Clean-only build of configuration Default for project Palpation2 ****
+
+python D:/WorspaceNirmal/Palpation2/build_native.py clean 
+Couldn't find the gcc toolchain.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project Palpation2 ****
+
+python D:/WorspaceNirmal/Palpation2/build_native.py all 
+Couldn't find the gcc toolchain.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project Palpation2 ****
+
+python D:/WorspaceNirmal/Palpation2/build_native.py all 
+Couldn't find the gcc toolchain.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project Palpation2 ****
+
+python D:/WorspaceNirmal/Palpation2/build_native.py all 
+Couldn't find the gcc toolchain.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project Palpation2 ****
+
+python D:/WorspaceNirmal/Palpation2/build_native.py all 
+Couldn't find the gcc toolchain.
+
+**** Build Finished ****

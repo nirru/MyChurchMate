@@ -40,8 +40,6 @@ import com.mcm.R;
 import com.mcm.SplashActivity;
 import com.mcm.database.AppConstant;
 import com.mcm.database.InsertTable;
-import com.roomorama.caldroid.CaldroidFragment;
-
 public class EventsDetails extends Fragment implements AlertInterface {
 	TextView tv_eventName, tv_eventDateTime, tv_eventlongDesc,
 			location_not_provided_tv;;
@@ -57,20 +55,20 @@ public class EventsDetails extends Fragment implements AlertInterface {
 	String month;
 	String year;
 	String folderName;
-	int hour, min, endhour, endmin;
+	int hour, min, endhour, endmin,starthour, startmin;
 
 	UiTimePicker uiTimePicker;
 	TextView evetnDeatilHeader;
-	int monthIndex = 0, endmonthIndex = 0;
+	int monthIndex = 0, endmonthIndex = 0, startmonthIndex = 0 ;
 	int dateIndex;
-	String amPm, endamPm;
+	String amPm, endamPm,startamPm;
 	ImageView imageReminder, delete_Reminder, ev_detail_fg_bg_imageView;
 
+	String startdateToPass,startdayOfTheWeek, startmonth, startdatOfWeek, startyear;
 	String enddateToPass, enddatOfWeek, endmonth, endday, endyear;
 
 	NotificationManager nm;
 	TextView savedEvents;
-	CaldroidFragment caldroidFragment;
 
 	String location;
 
@@ -87,7 +85,7 @@ public class EventsDetails extends Fragment implements AlertInterface {
 	long endCalTime;
 	Date eventDate = null, endEventDate = null;
 	String calId = null;
-	int customCalenderHour, endcustomCalenderHour;
+	int customCalenderHour, endcustomCalenderHour,startcustomCalenderHour;
 	String reminder_flag;
 	String email_String;
 	int clientID;
@@ -99,7 +97,8 @@ public class EventsDetails extends Fragment implements AlertInterface {
 			String datOfWeek, String month, String year, int hour, int min,
 			String amPm, String enddateToPass, String enddatOfWeek,
 			String endmonth, String endyear, int endhour, int endmin,
-			String endamPm, String folderName, Date eventTime,
+			String endamPm,String startdateToPass,String startdatOfWeek, String startmonth, String startyear,
+			int starthour, int startmin, String startamPm, String folderName, Date eventTime,
 			Date eventStartTime, String location, String reminder_flag,
 			String email_String, int clientID) {
 
@@ -121,6 +120,13 @@ public class EventsDetails extends Fragment implements AlertInterface {
 		this.endhour = endhour;
 		this.endmin = endmin;
 		this.endamPm = endamPm;
+		this.startdateToPass = startdateToPass;
+		this.startdatOfWeek = startdatOfWeek;
+		this.startmonth = startmonth;
+		this.startyear = startyear;
+		this.starthour = starthour;
+		this.startmin = startmin;
+		this.startamPm = startamPm;
 
 		this.folderName = folderName;
 		this.context = context;
@@ -365,6 +371,21 @@ public class EventsDetails extends Fragment implements AlertInterface {
 		// Log.e("MONTH", "" + monthIndex);
 		return monthIndex;
 	}
+	
+	private int startgetMonth() {
+		try {
+			Calendar cal = Calendar.getInstance();
+			cal.setTime(new SimpleDateFormat("MMM").parse(month));
+			startmonthIndex = cal.get(Calendar.MONTH);
+			String monthString = new DateFormatSymbols().getMonths()[monthIndex];
+			// Log.e("MONTH NAME AFTER CONVERING", "" + monthString);
+		} catch (java.text.ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// Log.e("MONTH", "" + monthIndex);
+		return monthIndex;
+	}
 
 	private boolean checkCurrentDateIsGreaterThanEventSchduledDate() {
 
@@ -374,6 +395,7 @@ public class EventsDetails extends Fragment implements AlertInterface {
 		// Log.e("CURRENT MILLIS", "" + cal.getTimeInMillis());
 		getMonth();
 		endgetMonth();
+		startgetMonth();
 		cal.set(Integer.parseInt(year), monthIndex, Integer.parseInt(datOfWeek));
 		cal.set(Calendar.HOUR_OF_DAY, hour);
 		cal.set(Calendar.MINUTE, min);
@@ -390,6 +412,12 @@ public class EventsDetails extends Fragment implements AlertInterface {
 			endcustomCalenderHour = endhour;
 		} else {
 			endcustomCalenderHour = endhour + 12;
+		}
+		
+		if (startamPm.equals("AM")) {
+			startcustomCalenderHour = starthour;
+		} else {
+			startcustomCalenderHour = starthour + 12;
 		}
 		long j = cal.getTimeInMillis();
 
@@ -500,8 +528,9 @@ public class EventsDetails extends Fragment implements AlertInterface {
 				.parse(getCalendarUriBase(getActivity()) + "events");
 		TimeZone timeZone = TimeZone.getDefault();
 		Calendar beginTime = Calendar.getInstance();
-		beginTime.set(Integer.parseInt(year), monthIndex,
-				Integer.parseInt(datOfWeek), customCalenderHour, min);
+		beginTime.set(Integer.parseInt(startyear), startmonthIndex,
+				Integer.parseInt(startdatOfWeek), startcustomCalenderHour, startmin);
+		
 		startMillis = beginTime.getTimeInMillis();
 		Calendar endTime = Calendar.getInstance();
 		endTime.set(Integer.parseInt(endyear), endmonthIndex,

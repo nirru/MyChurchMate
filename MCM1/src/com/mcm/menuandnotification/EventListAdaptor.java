@@ -32,9 +32,10 @@ public class EventListAdaptor extends BaseAdapter {
 	String folderName;
 	ArrayList<ArrayList<String>> values;
 	String dateToPass, dayOfTheWeek, month, day, year, enddateToPass,
-			enddayOfTheWeek, endmonth, endday, endyear;
-	int hour, min, endhour, endmin;
-	String amPm, endamPm;
+			enddayOfTheWeek, endmonth, endday, endyear, startdateToPass,
+			startdayOfTheWeek, startmonth, startday, startyear;
+	int hour, min, endhour, endmin, starthour, startmin;
+	String amPm, endamPm, startamPm;
 	Date customDate, eventStartTime, eventEndTime, eventDate,
 			currentSystemDate;
 	String email_String;
@@ -69,6 +70,8 @@ public class EventListAdaptor extends BaseAdapter {
 	public long getItemId(int position) {
 		return position;
 	}
+	
+	
 
 	@Override
 	public View getView(int pos, View convertView, ViewGroup parent) {
@@ -156,6 +159,7 @@ public class EventListAdaptor extends BaseAdapter {
 	private void displayView(int id) {
 		convertstringTodate(values.get(id).get(2).toString().trim());
 		convertstringToEnddate(values.get(id).get(4).toString().trim());
+		convertstringToStartdate(values.get(id).get(3).toString().trim());
 		String eventName = values.get(id).get(5).toString().trim();
 		String eventDateTime = values.get(id).get(2).toString().trim();
 		String eventlongDesc = values.get(id).get(7).toString().trim();
@@ -163,10 +167,12 @@ public class EventListAdaptor extends BaseAdapter {
 		String reminder_flag = values.get(id).get(10).toString().trim();
 		Date eventTime = getDateTime(values.get(id).get(2).toString().trim());
 		eventStartTime = getDateTime(values.get(id).get(3).toString().trim());
+		Log.e("DATE START TIME", "" + eventStartTime);
 		Fragment fragment = new EventsDetails(context, eventName,
 				eventDateTime, eventlongDesc, dateToPass, day, month, year,
 				hour, min, amPm, enddateToPass, endday, endmonth, endyear,
-				endhour, endmin, endamPm, folderName, eventTime,
+				endhour, endmin, endamPm, startdateToPass,startday, startmonth, startyear,
+				starthour, startmin, startamPm, folderName, eventTime,
 				eventStartTime, location, reminder_flag,email_String, clientID);
 		if (fragment != null) {
 			if (context instanceof FragmentActivity) {
@@ -247,7 +253,7 @@ public class EventListAdaptor extends BaseAdapter {
 		try {
 			customDate = inputFormat24.parse(convertDateString);
 
-			// Log.e("DATE customDate", "" + customDate);
+//			 Log.e("DATE customDate", "" + customDate);
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
@@ -317,6 +323,66 @@ public class EventListAdaptor extends BaseAdapter {
 			endhour = Integer.parseInt(outputFormatHour.format(date));
 			endmin = Integer.parseInt(outputFormatMin.format(date));
 			endamPm = outputFormatHMAmPm.format(date);
+			// Log.e("DATE HOUR", "" + date);
+			return outputFormatAmPm.format(date);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return "";
+	}
+	
+	////start time
+	private String convertstringToStartdate(String date_String) {
+
+		String dtStart = date_String;
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+		Date date = null;
+		try {
+			date = format.parse(dtStart);
+			dtStart = getMonthYearforStartTime(date, dtStart);
+		} catch (java.text.ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		// Log.e("DATE HOUR", "" + date);
+
+		return dtStart;
+	}
+	
+	private String getMonthYearforStartTime(Date date, String dateTimeString) {
+
+		Calendar c = Calendar.getInstance();
+		c.setTime(date);
+		startdayOfTheWeek = (String) android.text.format.DateFormat.format(
+				"EEEE", date);
+		startmonth = (String) android.text.format.DateFormat.format("MMM", date);
+		startday = (String) android.text.format.DateFormat.format("dd", date); // 20
+		startyear = (String) android.text.format.DateFormat.format("yyyy", date); // 20
+		String textdate = endmonth + "\n" + endday + "\n" + enddayOfTheWeek;
+
+		String time_Am_Pm = convertstringTotimeforStartTime(dateTimeString);
+		startdateToPass = time_Am_Pm + " on " + enddayOfTheWeek + " " + month
+				+ " " + endday + "," + year;
+
+		return textdate;
+	}
+
+	private String convertstringTotimeforStartTime(String date_String) {
+		String dtStart = "";
+
+		SimpleDateFormat inputFormat24 = new SimpleDateFormat(
+				"yyyy-MM-dd'T'HH:mm:ss");
+		SimpleDateFormat outputFormatAmPm = new SimpleDateFormat("KK:mm a");
+		SimpleDateFormat outputFormatHour = new SimpleDateFormat("KK");
+		SimpleDateFormat outputFormatMin = new SimpleDateFormat("mm");
+		SimpleDateFormat outputFormatHMAmPm = new SimpleDateFormat("a");
+		try {
+			Date date = inputFormat24.parse(date_String);
+			dtStart = outputFormatAmPm.format(date);
+			starthour = Integer.parseInt(outputFormatHour.format(date));
+			startmin = Integer.parseInt(outputFormatMin.format(date));
+			startamPm = outputFormatHMAmPm.format(date);
 			// Log.e("DATE HOUR", "" + date);
 			return outputFormatAmPm.format(date);
 		} catch (ParseException e) {

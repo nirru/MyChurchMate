@@ -17,5 +17,7 @@
 <fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
 <fullyQualifiedTypeName name="com.mcm.SplashActivity"/>
 <fullyQualifiedTypeName name="com.mcm.database.AppConstant"/>
+<fullyQualifiedTypeName name="android.widget.AbsListView.OnScrollListener"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
 </qualifiedTypeNameHistroy>

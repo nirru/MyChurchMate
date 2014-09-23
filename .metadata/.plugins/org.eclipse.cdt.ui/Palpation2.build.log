@@ -1,7 +1,7 @@
 
-**** Clean-only build of configuration Default for project Palpation2 ****
+**** Build of configuration Default for project Palpation2 ****
 
-python D:/WorspaceNirmal/Palpation2/build_native.py clean 
+python D:/WorspaceNirmal/Palpation2/build_native.py all 
 Couldn't find the gcc toolchain.
 
 **** Build Finished ****

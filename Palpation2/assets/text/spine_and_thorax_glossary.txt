@@ -1,0 +1,207 @@
+*Bone Terminology
+Atlas
+the first cervical vertebra (C1), supports the skull and has no vertebral body
+Angle
+a visible change in the direction of a bone or the edge of a bone
+Axis
+the second cervical vertebra (C2), the body contains the odontoid process that articulates with (C1)
+Body of the sternum
+the main part of the sternum below the manubrium
+Cervical vertebrae
+the seven vertebrae of the neck
+Clavicle
+the S shaped bone connecting the shoulder to the axial skeleton, the “collar bone”
+Coccyx
+three to five small, fused vertebrae continuing from the inferior sacrum, the  “tail bone”
+False ribs 8-12
+ribs whose cartilages do not connect directly to the sternum but only to the cartilages of the adjacent ribs
+First rib
+connects T1 to the top of the manubrium of the sternum and lies deep to the clavicle
+Floating ribs 11-12
+ribs with no connection to the sternum
+Head
+a prominent swelling at the end of a long bone, usually (but not always) proximal
+Lamina
+the flat part of the vertebral arch between the spinous and transverse processes
+Laminar groove
+the space formed by the spinous and transverse processes of the vertebral column, filled with the deep spinal muscles
+Lumbar vertebrae
+the five largest unfused vertebrae in the human spinal column, continuing from the thoracic vertebrae to the sacrum
+Manubrium
+the upper part of the sternum, connects with costal cartilage of the first rib, the clavicle, and the body of the sternum via the sternal angle
+Neck
+relatively narrow part of a bone adjacent to the head
+Odontoid process
+a large vertical process projecting up from the body of C2 and part of the pivot joint with C1
+Ribs
+paired slender flat bones connecting the vertebrae to the sternum via the costal cartilages and forms the anterior and lateral thoracic cage
+Sacrum
+a large triangular bone made up of 5 fused vertebrae, connects with both ilia and forms the posterior part of the pelvis
+Skeleton
+the collective of all the bones, ligaments and joints in the body
+Sternum
+midline bone of the anterior thorax that connects to the ribs via the costal cartilages, “the breastbone”
+Thoracic vertebrae
+the twelve vertebrae of the thorax
+Thorax
+the “rib cage” formed by the thoracic vertebrae, the ribs and the sternum
+True ribs 1-7
+ribs whose cartilages connect directly to the sternum
+
+*Bony Landmark Terminology
+Attachment site
+usually a bony landmark where muscles or tendons attach 
+External occipital protuberance
+a variable protuberance on the posterior occipital bone where the superior nuchal lines meet, marks the posterior margin of the nuchal ligament
+Jugular notch of the sternum
+a small indentation at the top of the manubrium
+Posterior tubercle
+a small bony projection posterior to the intervertebral foramen of the cervical vertebrae
+Spinous processes
+posterior projections of the vertebrae for muscle and ligament attachment
+Sternal angle
+the joint (fused in adults) between the manubrium of the sternum and the body, connection point of the second costal cartilage
+Transverse foramen
+a foramen (opening) in the transverse processes of the cervical vertebrae
+Transverse processes
+lateral bony projections of the vertebrae
+Tubercle
+a lump or nodule of bone of various sizes
+Vertebral foramen
+the opening formed by the vertebral arch, all together the vertebral foramena form the spinal canal
+Vertebral spinous processes
+posterior downward sloping projections of the vertebrae
+Xyphoid process
+a cartilage extension from the inferior end of the sternum, sometimes calcified
+
+*Joint Terminology
+Articular facet
+general term referring to a small flat gliding joint surface
+Articulations
+joints, usually synovial joints
+Atlanto-axial joint
+combination pivot joint of C1 around the odontoid process of C2, gliding joints between large articular facets of C1 and C2, works with the atlanto-occipital joint to provide movement in all three planes for the skull
+Atlanto-occipital joint
+the two ellipsoid joints between occipital condyles of the skull and cranium, moves in the sagittal and frontal planes
+Costal cartilage
+cartilaginous connector between a rib and the sternum,considered a cartilaginous joint
+Costochondral joints
+fibrous connections between the ribs and the costal cartilages
+Costotransverse joints
+small gliding joints between the costal tubercles and the transverse processes of the thoracic vertebrae
+Costovertebral joints
+small gliding joints between the heads of the ribs and the vertebral bodies
+Inferior facets
+gliding joint surfaces projecting downward from the vertebra to articulate with the superior facets of the vertebra below
+Intervertebral discs
+fibrocartilage discs between the vertebral bodies, considered a symphysis joint
+Intervertebral joints
+the joints between the vertebrae, the term is often limited to the gliding joints between the articular processes of adjacent vertebrae
+Sternocostal joints
+variable, slightly moveable connections between the costal cartilages and the sternum, may or may not have joint cavities and synovial fluid 
+Superior facets
+gliding joint surfaces projecting upward from the vertebra to articulate with the inferior facets of the vertebra above
+
+*Ligament Terminology
+Anterior longitudinal ligament
+a long ligament connecting the anterior surfaces of all the vertebral bodies from C2 to the sacrum
+
+Interspinous ligament
+a short vertical ligament connecting the spinous processes of adjacent vertebrae
+Intertransverse ligament
+a short vertical ligament connecting the transverse processes of adjacent vertebrae
+Ligamentum nuchae
+a flat ligament in the sagittal plane connecting the occipital crest with the spinous processes of C2–C7, attachment surface for back and neck muscles
+Posterior longitudinal ligament
+a long ligament inside the spinal canal connecting the posterior surfaces of the vertebral bodies from C2 to the sacrum
+Supraspinous ligament
+a long strip of connective tissue running from tip to tip of the spinous processes from C2 to the sacrum
+
+*Muscle Terminology
+Diaphragm
+a flat structure that divides one space from another and usually refers to the respiratory diaphragm
+Erector spinae group
+the collective of all the large back muscles connecting sacrum, iliac crest, lumbodorsal fascia, vertebrae, ribs and mastoid process
+External oblique
+the outermost lateral abdominal muscle that helps in flexion, lateral flexion, rotation of the spine and compression of the abdomen
+Iliocostalis
+most lateral part of the erector group, connects the iliac crest, lumbodorsal fascia and sacrum to all the ribs and the transverse processes of C5-C7
+Insertion
+the more moveable attachment of a muscle
+Internal oblique
+lateral muscle just deep to the external oblique, helps in flexion, lateral flexion and rotation of the spine and compression of the abdomen
+Longissimus
+“longest”, a long complex part of the erector spinae that connects from the iliac crest and lumbodorsal fascia to the ribs, transverse processes and the mastoid process
+Multifidi
+a deep vertebral muscle group that fills most of the laminar groove connecting the transverse processes of vertebrae to the spinous processes of 2 to 5 vertebrae above from S5 to C2, opposite side rotators
+Muscle belly 
+the fleshy center of the muscle
+Origin
+the more stationary muscle attachment site on a bone
+
+Quadratus lumborum
+a complex muscle connecting the twelfth rib, iliac crest, and transverse processes of L1 to L5 and stabilizes and laterally flexes the lumbar spine
+Rectus abdominis
+a segmented muscle connecting costal cartilages 5-7 and xiphoid process to the pubic crest and symphysis, main flexor of the lumbar spine (the “six-pack”)
+Respiratory diaphragm
+a flat dome shaped muscle connecting around the margin of the thorax to the lumbar spine, primary muscle of inspiration
+Rotatores
+deepest, one-joint layer of the multifidi, connecting the transverse process of a vertebra to the spinous process of the vertebra above and opposite side rotators
+Spinalis
+a deep division of the erector spinae connecting the sides of the spinous processes from the occipital bone to L2
+Thoracolumbar aponeurosis
+a thick layer of connective tissue that forms the spinal attachments for many of the back and shoulder muscles
+Transverse abdominis
+the deepest of the lateral abdominal muscles, constrictor of the abdomen
+
+*Movement Terminology
+Action
+the movement created by a muscle contraction at a given joint
+Antagonist
+a muscle that opposes the action of another muscle
+Body mechanics
+the body’s positioning and alignment when performing a physical task like palpating a muscle or applying a manual technique
+Depression 
+the movement when the rib cage moves inferiorly
+Elevation
+the movement when the rib cage moves superiorly
+Expansion
+an increase in volume of the thorax by movement of the ribs and diaphragm
+Isometric muscle contraction
+a muscle contraction with no joint movement
+Mechanical function
+the relationship and interaction between muscles, joints and nerves during the execution of various activities involving the body
+Passively
+when the client remains inactive
+Primary function
+the strongest action of a muscle
+
+*Pathology Terminology
+Collapse
+a loss of height of a vertebra or disc due to trauma or overload
+Disc degeneration
+an abnormal flattening of the intervertebral disc and early loss of the nucleus pulposus
+Disc disorders
+any damage or loss of function of the intervertebral disc
+Hyperkyphosis
+an exaggerated curve of the thoracic spine, “hunchback”
+Hyperlordosis
+an exaggerated curve of the lumbar spine, “swayback”
+Scoliosis
+abnormal spinal curvature forming an “S” shape in the frontal plane
+
+*Miscellaneous Terminology
+Palpable findings
+the practitioner’s felt sensation of a muscle, soft tissue or structure of the body
+Palpate
+to evaluate by touch
+Palpation
+the act of using one’s hands to examine, locate and manipulate a muscle, soft tissue or structure of the body
+Physical characteristics
+a categorization used to describe the texture and condition of a muscle, soft tissue or structure of the body
+Posture
+the position and alignment of the body standing, sitting or lying down
+Pronunciation
+the ability to accurately say a word
+Tissue quality
+the palpable texture of a muscle, soft tissue or structure of the body
